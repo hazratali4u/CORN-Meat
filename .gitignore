@@ -1,0 +1,34 @@
+# Visual Studio
+.vs/
+**/bin/
+**/obj/
+**/Debug/
+**/Release/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build output
+Build/
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+
+# SQL Server local files
+*.mdf
+*.ndf
+*.ldf
+
+# OS files
+Thumbs.db
+desktop.ini

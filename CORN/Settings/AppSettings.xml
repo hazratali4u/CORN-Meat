@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppSettings>
+
+  <!--<Server>FS-DEV-I5\MSSQLSERVER2012</Server>
+  <DBName>dbNewCafe</DBName>
+  <DBUser>sa</DBUser>
+  <DBPassword>fast1234</DBPassword>
+  <DBAuthentication>Windows</DBAuthentication>-->
+
+  <!--<Server>RnW97Du9H8dnggbfL7IfagX6nSqGriZZPA/1OOU8jXs=</Server>
+  <DBName>nnd4vVAmSk48m4TEY9ePYg==</DBName>
+  <DBUser>0g7+x3zqADI=</DBUser>
+  <DBPassword>+rlyZJ3bW6TYEyIzvlN72Q==</DBPassword>
+  <DBAuthentication>Windows</DBAuthentication>-->
+
+  <Server>.</Server>
+  <DBName>dbNewCafe</DBName>
+  <DBUser>sa</DBUser>
+  <DBPassword>firms1234</DBPassword>
+  <DBAuthentication>MSDE</DBAuthentication>
+</AppSettings>

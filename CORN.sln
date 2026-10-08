@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORNDatabaseLayer", "CORNDatabaseLayer\CORNDatabaseLayer.csproj", "{DF27A1C1-7BFD-44DF-98FD-D3598947F58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORNCommon", "CORNCommon\CORNCommon.csproj", "{848C4FC7-6E77-4041-925B-4B874B9E7C4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORNDataAccessLayer", "CORNDataAccessLayer\CORNDataAccessLayer.csproj", "{26D8191C-6D6A-4457-BD84-41F5DFAAF9C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CORNBusinessLayer", "CORNBusinessLayer\CORNBusinessLayer.csproj", "{4CC9CBCE-9BBF-440E-850A-7B51F914792E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CORN", "CORN", "{2A340764-2583-48B0-9EE8-D1265703D8D4}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{848C4FC7-6E77-4041-925B-4B874B9E7C4E}|CORNCommon.dll;{26D8191C-6D6A-4457-BD84-41F5DFAAF9C2}|CORNDataAccessLayer.dll;{DF27A1C1-7BFD-44DF-98FD-D3598947F58E}|CORNDatabaseLayer.dll;{dd2902d8-9397-4f73-8adc-2de918c71525}|CornPointHelper.dll;{4cc9cbce-9bbf-440e-850a-7b51f914792e}|CORNBusinessLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/CORN"
+		Debug.AspNetCompiler.PhysicalPath = "CORN\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\CORN\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/CORN"
+		Release.AspNetCompiler.PhysicalPath = "CORN\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\CORN\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "5511"
+		SlnRelativePath = "CORN\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CornPointHelper", "CornPointHelper\CornPointHelper.csproj", "{DD2902D8-9397-4F73-8ADC-2DE918C71525}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF27A1C1-7BFD-44DF-98FD-D3598947F58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF27A1C1-7BFD-44DF-98FD-D3598947F58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF27A1C1-7BFD-44DF-98FD-D3598947F58E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DF27A1C1-7BFD-44DF-98FD-D3598947F58E}.Debug|x86.Build.0 = Debug|Any CPU
+		{DF27A1C1-7BFD-44DF-98FD-D3598947F58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF27A1C1-7BFD-44DF-98FD-D3598947F58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF27A1C1-7BFD-44DF-98FD-D3598947F58E}.Release|x86.ActiveCfg = Release|Any CPU
+		{DF27A1C1-7BFD-44DF-98FD-D3598947F58E}.Release|x86.Build.0 = Release|Any CPU
+		{848C4FC7-6E77-4041-925B-4B874B9E7C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848C4FC7-6E77-4041-925B-4B874B9E7C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848C4FC7-6E77-4041-925B-4B874B9E7C4E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{848C4FC7-6E77-4041-925B-4B874B9E7C4E}.Debug|x86.Build.0 = Debug|Any CPU
+		{848C4FC7-6E77-4041-925B-4B874B9E7C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848C4FC7-6E77-4041-925B-4B874B9E7C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848C4FC7-6E77-4041-925B-4B874B9E7C4E}.Release|x86.ActiveCfg = Release|Any CPU
+		{848C4FC7-6E77-4041-925B-4B874B9E7C4E}.Release|x86.Build.0 = Release|Any CPU
+		{26D8191C-6D6A-4457-BD84-41F5DFAAF9C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26D8191C-6D6A-4457-BD84-41F5DFAAF9C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26D8191C-6D6A-4457-BD84-41F5DFAAF9C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{26D8191C-6D6A-4457-BD84-41F5DFAAF9C2}.Debug|x86.Build.0 = Debug|Any CPU
+		{26D8191C-6D6A-4457-BD84-41F5DFAAF9C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26D8191C-6D6A-4457-BD84-41F5DFAAF9C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26D8191C-6D6A-4457-BD84-41F5DFAAF9C2}.Release|x86.ActiveCfg = Release|Any CPU
+		{26D8191C-6D6A-4457-BD84-41F5DFAAF9C2}.Release|x86.Build.0 = Release|Any CPU
+		{4CC9CBCE-9BBF-440E-850A-7B51F914792E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC9CBCE-9BBF-440E-850A-7B51F914792E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC9CBCE-9BBF-440E-850A-7B51F914792E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{4CC9CBCE-9BBF-440E-850A-7B51F914792E}.Debug|x86.Build.0 = Debug|Any CPU
+		{4CC9CBCE-9BBF-440E-850A-7B51F914792E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC9CBCE-9BBF-440E-850A-7B51F914792E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC9CBCE-9BBF-440E-850A-7B51F914792E}.Release|x86.ActiveCfg = Release|Any CPU
+		{4CC9CBCE-9BBF-440E-850A-7B51F914792E}.Release|x86.Build.0 = Release|Any CPU
+		{2A340764-2583-48B0-9EE8-D1265703D8D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A340764-2583-48B0-9EE8-D1265703D8D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A340764-2583-48B0-9EE8-D1265703D8D4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2A340764-2583-48B0-9EE8-D1265703D8D4}.Debug|x86.Build.0 = Debug|Any CPU
+		{2A340764-2583-48B0-9EE8-D1265703D8D4}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A340764-2583-48B0-9EE8-D1265703D8D4}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{2A340764-2583-48B0-9EE8-D1265703D8D4}.Release|x86.ActiveCfg = Debug|Any CPU
+		{2A340764-2583-48B0-9EE8-D1265703D8D4}.Release|x86.Build.0 = Debug|Any CPU
+		{DD2902D8-9397-4F73-8ADC-2DE918C71525}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD2902D8-9397-4F73-8ADC-2DE918C71525}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD2902D8-9397-4F73-8ADC-2DE918C71525}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{DD2902D8-9397-4F73-8ADC-2DE918C71525}.Debug|x86.Build.0 = Debug|Any CPU
+		{DD2902D8-9397-4F73-8ADC-2DE918C71525}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD2902D8-9397-4F73-8ADC-2DE918C71525}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD2902D8-9397-4F73-8ADC-2DE918C71525}.Release|x86.ActiveCfg = Release|Any CPU
+		{DD2902D8-9397-4F73-8ADC-2DE918C71525}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal

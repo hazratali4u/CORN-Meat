@@ -1,0 +1,28 @@
+* text=auto
+
+# C# source files
+*.cs text diff=csharp
+
+# Web files
+*.aspx text
+*.ascx text
+*.master text
+*.config text
+*.cshtml text
+*.js text
+*.css text
+*.html text
+
+# SQL files
+*.sql text
+
+# Binary files
+*.dll binary
+*.exe binary
+*.pdb binary
+*.zip binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.pdf binary
